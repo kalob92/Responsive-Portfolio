@@ -1,0 +1,205 @@
+body {
+    background-image: url("../images/white-waves/white-waves.png")
+}
+
+header {
+    width: 960px;
+    height: 66px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    border-color: #ccc;
+    margin-bottom: 36px;
+}
+
+.main-container {
+    margin: auto;
+    width: 960px;
+}
+
+.home-button {
+    width: 200px;
+    height: 66px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-tabs {
+    font-size: 12px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: right;
+    position: relative;
+    top: 33px;
+    right: 20px;
+}
+
+.tab {
+    text-decoration: none;
+    color: #ccc;
+    margin: 0px 18px;
+}
+
+.whitebox {
+    width: 960px;
+    height: 100%;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border: 1px solid #dddddd;
+}
+
+footer {
+    width: 100%;
+    height: 44px;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ccc;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    margin-top: 36px;
+}
+
+.copyright {
+    margin-top: 25px;
+}
+
+.about-me {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 30px 25px 25px 10px;
+    border-bottom: 3px solid #dddddd;
+    margin: 0px 20px;
+}
+
+.photo {
+    width: 180px;
+    float: left;
+    padding: 24px 20px 24px 20px;
+}
+
+.about {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    text-indent: 30px;
+    padding: 20px;
+}
+
+.submit-button {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100px;
+    height: 33px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    color: #777777;
+}
+
+input {
+    width: 95%;
+    margin: 10px 0px;
+    padding: 6px 4px;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+textarea {
+    width: 95%;
+    margin: 10px 0px;
+    padding: 4px 3px;
+    resize: none;
+    height: 180px;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.flexboxes {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    height: 800px;
+}
+
+.cats {
+    margin: 30px 0px 30px 0px;
+    position: relative;
+}
+
+.cats .btn {
+    position: absolute;
+    top: 80%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    width: 65%;
+    height: 30%;
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+        width: 640px;
+        height: 66px;
+        border-bottom: 1px solid black;
+        position: static;
+        top: 0;
+        background-color: #ffffff;
+        border-color: #ccc;
+        margin-bottom: 36px;
+    }
+
+    .main-container {
+        margin: auto;
+        width: 640px;
+    }
+    
+    .whitebox {
+        width: 640px;
+        height: 100%;
+        background-color: #ffffff;
+        border-color: #dddddd;
+        border: 1px solid #dddddd;
+    }
+    
+    .about-me {
+        font-family: 'Georgia', Times, "Times New Roman", serif;
+        color: #4aaaa5;
+        font-size: 1.3125rem;
+        font-weight: bold;
+        border-bottom: 3px solid #dddddd;
+    }
+    
+    .photo {
+        width: 180px;
+        float: left;
+        padding: 24px 20px 24px 20px;
+    }
+    
+    .about {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 1.125rem;
+        line-height: 36px;
+        text-indent: 30px;
+        padding: 25px;
+    }
+    
+} 
